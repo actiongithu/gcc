@@ -3,7 +3,7 @@ on: push
 jobs:
     build:
         runs-on: ubuntu-latest
-        timeout-minutes: 220
+        timeout-minutes: 210
         permissions:
             contents: write
         strategy:
